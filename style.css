@@ -1,0 +1,33 @@
+body{
+    background: black;
+}
+
+.nav-color-{
+    background-color: green;
+}
+.p-1, .p-2 {
+    color: white;
+    background-color: green;
+
+    border: 2px solid white;
+    border-radius: 20px;
+
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-footer{
+    text-align: center;
+}
+
+.background-nav:hover{
+    background-color: greenyellow;
+
+    border: 1px solid black;
+    border-radius: 30px;
+
+    text-transform: uppercase;
+
+    transition: ease-in 0.4s;
+}
